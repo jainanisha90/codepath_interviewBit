@@ -10,3 +10,5 @@ class Solution:
                 length = 1 + left + right
                 result, lengths[i - left], lengths[i + right] = max(result, length), length, length
         return result
+
+print Solution().longestConsecutive([100, 4, 200, 1, 3, 2]) # Output 4

@@ -11,3 +11,5 @@ class Solution:
                         A[i] = -1
 
         return(A)
+
+print Solution().nextGreater([4, 5, 2, 10]) #Output : [5, 10, 10, -1]

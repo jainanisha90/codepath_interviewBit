@@ -17,9 +17,10 @@ class Solution:
                 if(current_sum > C):
                     break
                 elif(B <= current_sum <= C):
-                    #print current_sum
                     tot += 1
             tot_sum -= A[i]
             if(tot_sum < B):
                 break
         return tot
+
+print Solution().numRange([10, 5, 1, 0, 2], 6, 8) #ans 3

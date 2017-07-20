@@ -4,4 +4,4 @@ class Solution:
     def reverseWords(self, A):
         return ' '.join(reversed(A.split()))
         
-print(Solution().reverseWords("the sky is blue")
+print Solution().reverseWords("the sky is blue") # Output "blue is sky the"

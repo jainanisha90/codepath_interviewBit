@@ -14,4 +14,4 @@ class Solution:
             other_num = A[other_num]
         return num
        
-print(Solution().repeatedNumber([3 4 1 4 1])
+print Solution().repeatedNumber([3, 4, 1, 4, 1]) # Output 1

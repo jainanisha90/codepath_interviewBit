@@ -11,4 +11,4 @@ class Solution:
                     return A[0][:i]
         return A[0]
         
-print(Solution().longestCommonPrefix(["abcdefgh", "aefghijk", "abcefgh"])
+print Solution().longestCommonPrefix(["abcdefgh", "aefghijk", "abcefgh"]) # Output a

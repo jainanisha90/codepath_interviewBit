@@ -11,3 +11,5 @@ class Solution:
                 array[size-1-i][j]=A-i
                 array[j][size-1-i]=A -i 
         return array
+
+print Solution().prettyPrint(3)
